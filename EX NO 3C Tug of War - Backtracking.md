@@ -32,7 +32,7 @@ Constraints:
 import java.util.*;
 public class Solution {
     public boolean canPartition(int[] nums) {
-        //Type your code here
+       
         int n = nums.length;
         int total = 0;
         for (int num : nums) total += num;
